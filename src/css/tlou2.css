@@ -1,0 +1,141 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.artigo {
+    background-color: rgba(255, 255, 255, 0.123);
+    margin: auto;
+    overflow: hidden;
+    font-family: 'Poppins';
+    
+}
+
+.meio {
+    max-width: 1000px; 
+    min-width: 320px;
+    margin-left: auto;
+    margin-right: auto; 
+    border: 90px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+
+.centralizar { 
+    width: 1000px; 
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.imagem {
+    max-width: 100px;
+}
+
+.principal{
+    width: 100%;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2px;
+   
+}
+
+.texto-principal {
+    position: absolute;
+    top: 1058px;
+    text-align: justify;
+    margin: auto;
+    font-size: 28px;
+    color: rgb(255, 255, 255);
+    left: 349px;
+    right: 0px;
+    
+}
+
+.textos {
+    padding: 80px;
+    justify-content: right;
+    text-align: justify;
+    padding-top: 20px;
+    padding-bottom: 10px;
+
+}
+
+.grandes {
+    padding: 80px;
+    font: bold;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.estagio-1 {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    max-width: 630px;
+}
+
+footer {
+    background-color:rgba(255, 255, 255, 0.041);
+    color: white;
+    text-align: center;
+    font-size: 0.8em;
+    padding: 5px;
+}
+
+footer > p > a {
+    color: white;
+    
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: rgb(171, 173, 159);
+}
+
+@media (max-width: 700px) {
+    .tamanhoimg {
+        width: 78%;
+    }
+    .tamanhoimgrei {
+        width: 78%;
+    }
+}
+
+@media (max-width: 500px) {
+    .textos {
+        text-align: initial;
+        line-height: 2.0rem;
+        padding: 40px;
+        padding-bottom: 14px;
+        padding-top: 14px;
+    }
+    .grandes {
+        padding: 44px;
+        padding-top: 0px;
+        padding-bottom: 14px;
+    }
+    .tamanhoimg {
+        width: 82%;
+    }
+    .tamanhoimgrei {
+        width: 84%;
+    }
+    .container .descricao {
+        width: 82%;
+    }
+}
+
+@media (max-width: 410px) {
+        
+    .container .descricao {
+       width: 81%;
+       font-size: 15px;
+       text-align: center;
+    }
+    .grandes {
+        font-size: 20px;
+    }
+}
